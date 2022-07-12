@@ -47,3 +47,64 @@ table {
 /*ここまでリセットcss*/
 /*ここからサイトのcss*/
 
+/*全体を通じたcss*/
+
+p, li, h1, h2, h3, h4, h5, h6, ul{
+    color: #593116;
+}
+
+p{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+
+/*PC版のcss*/
+
+.header-pc{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 60px;
+    padding:10px 80px 10px 30px;
+    border-bottom: 5px solid #ebe94c;
+}
+
+.header-pc-logo{
+    height: 50px;
+}
+
+.nav-ul{
+    font-family: fot-tsukuardgothic-std, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-ul li:not(:last-child){
+    margin-right: 50px;
+}
+
+.nav-pc-li a{
+    position: relative;
+    display: block;
+    text-decoration: none;
+    color:#593116;
+}
+
+.nav-pc-li a::after{
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    content:'';
+    width: 100%;
+    height: 2px;
+    background: #e0506b;
+    transform: scale(0,1);
+    transform-origin: center top;
+    transition: transform .3s;
+}
+
+.nav-pc-li a:hover::after{
+    transform: scale(1,1);
+}
