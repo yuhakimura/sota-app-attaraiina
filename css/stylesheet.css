@@ -44,12 +44,16 @@ table {
   border-spacing: 0;
 }
 
+a{
+    text-decoration: none;
+}
+
 /*ここまでリセットcss*/
 /*ここからサイトのcss*/
 
 /*全体を通じたcss*/
 
-p, li, h1, h2, h3, h4, h5, h6, ul{
+p, li, h1, h2, h3, h4, h5, h6, ul a{
     color: #593116;
 }
 
@@ -60,6 +64,7 @@ p{
 
 /*PC版のcss*/
 
+/*PC版ヘッダー*/
 .header-pc{
     display: flex;
     justify-content:space-between;
@@ -67,6 +72,9 @@ p{
     height: 60px;
     padding:10px 80px 10px 30px;
     border-bottom: 5px solid #ebe94c;
+    position: fixed;
+    width: 95vw;
+    background-color: #fff;
 }
 
 .header-pc-logo{
@@ -107,4 +115,12 @@ p{
 
 .nav-pc-li a:hover::after{
     transform: scale(1,1);
+}
+
+.nav-sp{
+    display: none;
+}
+
+.main-container{
+    padding-top: 90px;
 }
