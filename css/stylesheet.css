@@ -81,6 +81,7 @@ h1, h2, h3, h4, h5, h6{
     position: fixed;
     width: 95vw;
     background-color: #fff;
+    z-index: 50;
 }
 
 .header-pc-logo{
@@ -130,19 +131,22 @@ h1, h2, h3, h4, h5, h6{
 /*firstview*/
 
 .firstview{
+    background-image: url(../img/background-top.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.blank{
+    background-color: #cfeaef;
+    height: 100px;
+}
+
+.top-container{
     display: flex;
     justify-content: space-around;
     align-items: center;
     align-self: center;
-    background-image: url(../img/background-top.png);
-    background-size: cover;
-    width: 100vw;
-    background-repeat: no-repeat;
-    height: 100vh;
-}
-
-.container{
-    padding: 60px 5% 0px 5%;
 }
 
 .top-title{
@@ -157,8 +161,8 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .title-logo{
-    width: 80%;
-    margin: 50px auto;
+    width: 70%;
+    margin: 70px auto;
 }
 
 .dl-button{
