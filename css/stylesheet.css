@@ -65,6 +65,13 @@ h1, h2, h3, h4, h5, h6{
     font-family: fot-tsukuardgothic-std, sans-serif;
     font-style: normal;
     font-weight: 700;
+    letter-spacing: 2px;
+}
+
+h2{
+    font-size: 1.5em;
+    letter-spacing: 3px;
+    line-height: 1.5em;
 }
 
 
@@ -105,6 +112,7 @@ h1, h2, h3, h4, h5, h6{
     display: block;
     text-decoration: none;
     color:#593116;
+    letter-spacing: 2px;
 }
 
 .nav-pc-li a::after{
@@ -175,4 +183,20 @@ h1, h2, h3, h4, h5, h6{
 
 .top-image img{
     width: 60%;
+}
+
+/*about*/
+
+.about{
+    margin-top: 80px;
+}
+
+.about-head{
+    text-align: center;
+    width: 20%;
+    margin: 0 auto;
+}
+
+.about-head img{
+    width: 90%;
 }
