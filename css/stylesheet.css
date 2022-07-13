@@ -184,6 +184,13 @@ h2{
     width: 60%;
 }
 
+.top-man{
+    position: absolute;
+    top: 70%;
+    left: 5%;
+    width: 8vw;
+}
+
 /*about*/
 
 .about{
@@ -201,6 +208,11 @@ h2{
     line-height: 2.6vw;
 }
 
+.emphasis{
+    text-emphasis: "⚫︎" #e0506b;
+    -webkit-text-emphasis: "⚫︎" #e0506b;
+}
+
 .about-head img{
     width: 90%;
 }
@@ -209,4 +221,22 @@ h2{
 /*footer*/
 .footer-list{
     display: flex;
+    justify-content: center;
+    background-color: #ebe94c;
+    padding:40px 5%;
+    text-align: center;
+}
+
+.footer-list li{
+    font-family: 'noto sans jp';
+    font-weight: 500;
+}
+
+.footer-list li:not(:last-child){
+    padding-right: 25px;
+    border-right: solid 1px #593116;
+}
+
+.footer-list li:not(:first-child){
+    padding-left: 25px;
 }
