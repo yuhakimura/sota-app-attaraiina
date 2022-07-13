@@ -135,7 +135,8 @@ h1, h2, h3, h4, h5, h6{
     align-items: center;
     align-self: center;
     background-image: url(../img/background-top.png);
-    background-size: contain;
+    background-size: cover;
+    width: 100vw;
     background-repeat: no-repeat;
     height: 100vh;
 }
