@@ -222,14 +222,17 @@ h2{
 .footer-list{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     background-color: #ebe94c;
-    padding:40px 5%;
+    padding:30px 5%;
     text-align: center;
 }
 
-.footer-list li{
+.footer-list li span{
     font-family: 'noto sans jp';
     font-weight: 500;
+    margin-right: 5px;
+    line-height: 30px;
 }
 
 .footer-list li:not(:last-child){
