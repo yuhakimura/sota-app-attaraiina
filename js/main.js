@@ -9,4 +9,9 @@ $(function($){
         $("html, body").animate({scrollTop:position}, speed, "swing");
         return false;
       });
+
+      window.onload = function(){
+        const spinner = document.getElementById('loading');
+        spinner.classList.add('loaded');
+      }
 })
